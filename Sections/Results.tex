@@ -1,0 +1,113 @@
+\label{sec:RESULTS}
+
+\subsection{CHARACTERIZATION OF LINEAR POLARIZATION}
+First, we align the lazer by adjusting the two mirrors in our optical arrangement. This is important in order to ensure a fixed and straight optical path throughout our optical elements.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.14]{Figures/Polarization_1setup.jpg}
+    \label{fig:Setup1}
+    \caption{LASER (Bottom Right), aligned mirrors (left side), polarizer (center right) and intensity measurement device (far right).}
+\end{figure}
+
+Once the LASER is aligned, we setup the polarizer and the intensity measurement device. We rotate the polarizer until we obtain a maximum and a minimum value. The values are presented in table \ref{Tab:LPs}\\ 
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+        & Intensity  & Angle        \\
+Maximum & 10.63 $mW$ & 357 $degree$ \\
+Minimum & 0.02 $mW$  & 87 $degree$ 
+\end{tabular}
+\label{Tab:LPs}
+\caption{Measurements of Maxima of the LASER}
+\end{center}
+\end{table}
+
+Because these extrema angles are perpendicular to each other it is possible to conclude that the LASER-beam is linearly polarized. However because the polarizer does not indicate its orientation of polarization, we are not able to determine the polarization of the beam.  \\
+
+To determine the orientation of the polarizer it is necessary to find a source of polarized light with a known linear polarization \footnote{An example of such source can be light reflected from a surface at Brewster angle or a digital screen. }. For such source, the team used a digital screen to determine that at the 100 degree mark, the polarizer blocks the vertical polarization of the screen (Figure \ref{fig:FOR}). \\
+
+\begin{figure} [H]
+    \includegraphics[width=.20 \textwidth]{Figures/Polarization_FrameoRef_Real.png}\hfill
+    \includegraphics[width=.26\textwidth]{Figures/Polarization_FrameoRef.png}\hfill
+
+    \caption{Polarization Diagrams used to determine polarization}\label{fig:FOR}
+\end{figure}
+
+This leads us to conclude that the LASER beam in our setup has anti-diagonal polarization ($\Vec{P}$) with a $-13^o$ degree shift with respect to the polarizer frame of reference. A diagram illustrating the previous results is presented in figure \ref{fig:FOR}. \\
+
+\subsection{EMPIRICAL PROOF OF MALUS LAW}
+Rene Descartes once said "The conquest of nature is to be achieved through number and measure". In section \ref{sec:TEO_FRAMEWORK}, we exposed that Mauls Law is a simple mathematical derivation that uses basic geometrical considerations about  light and leads to a relation between the polarizer, the polarized beam and the intensity or power \footnote{For practical purposes, we do not differentiate between intensity and power.}. In this section, the team aims to test experimentally that this law holds for our arrangement. \\
+
+To test this law, the team uses the setup exposed in figure \ref{fig:Setup1}.We start to vary the angle of the polarizer and take discrete measurements of intensity (Figure \ref{fig:Setup2}). After the data is collected, a few considerations are taken into account to calibrate and define the angle $0^o$. The results obtained are presented in the figure \ref{fig:Malus}. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.33]{Figures/INTENSITY VS POLARIZATION ANGLE .png}
+    \label{fig:Malus}
+    \caption{Test of Malus Law}
+\end{figure}
+
+The results leads us to state that Mauls law holds in our experiment. After a care-full study of the difference in values, the team obtained a relative error of $1.04\%$. The fact that we proved empirically that measurements match the theory lets us use Malus law as a tool in future characterizations with a high certainty.
+
+\begin{figure} [H]
+    \includegraphics[width=.23\textwidth]{Figures/Polarization_Setup2.1.jpg}\hfill
+    \includegraphics[width=.23\textwidth]{Figures/Polarization_Setup2.2.jpg}\hfill
+    \caption{Polarization setup to test Malus Law}
+    \label{fig:Setup2}
+\end{figure}
+
+\subsection{INDUCE A CIRCULAR POLARIZATION}
+The arrangement presented in figure \ref{fig:CircularPolS1} is made in order to generate and characterize circular polarization.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.30]{Figures/Polarization_Setup3.png}
+    \caption{Circular polarization setup}
+    \label{fig:CircularPolS1}
+\end{figure}
+First, the team varied the angle on the retarder until we obtained a value of intensity of $10.57 mW$. At this configuration we state that the linear polarized LASER orientation is parallel to the orientation of the fast (or slow) axis of the retarder plate. To verify such statement the team proceeded to vary $90$ degrees the angle of the retarder and we obtained another maxima of $10.40 mW$. This means that now the LASER polarization is perfectly parallel to the other axis of the retarder. Then, we proceeded to vary the retarder angle $-45$ degrees to induce circular polarization. We can verify that we obtained this state by varying the polarizer angle. Since its circular polarization, we expect to have minimum variations in intensity as we vary the polarizer orientation since the polarized state is rotating in time in all orientations. To the teams satisfaction, the results of varied between $5.11 mW$ and $5.53 mW$. These values correspond to half of the total intensity because at any given angle, the polarizer blocks half of the energy that the circular polarization has. \\
+
+\subsection{INDUCE A PERPENDICULAR POLARIZATION}
+Just as we have retarders of $\psi = pi/2$, there are retarders that introduce a phase difference of $pi$ or $\lambda/2$ to polarized states. The effect of such elements are that they rotate the state of polarization by $90$ degrees. \\
+
+To induce such polarization, the team took the setup presented in \ref{fig:Setup2} and change the $\lambda/4$  retarder to a $\lambda/2$ retarder. When such element was introduced the intensity measurement was $0.00 mW$ this is because the polarizer in front of the retarder was oriented to allow vertical polarization and the retarder induced a horizontal polarization on the incident vertical polarization.  
+
+
+\subsection{CHARACTERIZATION OF CIRCULAR POLARIZATION WITH STOKES PARAMETERS}
+From a practical standpoint, the Stokes parameters narrow down to 4 simple questions: (i) How much intensity or power a given light source has, (ii) How much is it polarized in the horizontal-vertical direction, (iii) How much is it polarized in the diagonal-anti diagonal direction and (vi) How much is it polarized in the circular L-R direction? For this reason, it is of great interest for physicists that try to characterize light in experimental setups to determine. \\
+
+To determine these parameters for circular popularization states, the team built the following optical system presented in figure \ref{fig:Setup2} once again inserting the  $\lambda/4$ retarder. Later, we varied the linear polarizer to obtain the following measurements for each polarization state (Table \ref{Tab:Stokes}). \\
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+      & $E_1$ & $E_2$ & Value \\
+$S_0$ & 5.27  & 5.28  & 10.55  \\
+$S_1$ & 5.27  & 5.28  & -0.01   \\
+$S_2$ & 5.46  & 5.44  & 0.02     \\
+$S_3$ & 10.49 & 0.01  & 10.48       
+\end{tabular}
+\caption{Measurements of Stokes Parameters}
+\end{center}
+\label{Tab:Stokes}
+\end{table}
+
+Finally, with the same setup we introduced a $\lambda/2$ retarder. After making the same measurements of the stokes parameters we obtained similar results but with the $S_3$ with a negative value. This result tells us that the circular polarization was inverted due to the  $\lambda/2$ retarder. The results are presented in table \ref{Tab:Stokes2}.
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+      & $E_1$ & $E_2$ & Value \\
+$S_3$ & 0 & 10.39  & -10.39       
+\end{tabular}
+\caption{Measurements of Stokes Parameters with $\lambda/2$ retarder}
+\end{center}
+\label{Tab:Stokes2}
+\end{table}
+The mathematical description of this polarized states represent vectors. The optical elements represent matrices - Called Jones matrices. With a simple knowdlege of linear algebra its easy to understend the numerical description of the system presented in figure \ref{fig:Proof}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.42]{Figures/Proof.png}
+    \caption{From vertical to circular polarization}
+    \label{fig:Proof}
+\end{figure}
