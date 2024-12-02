@@ -24,6 +24,7 @@
 % Packages for functionality
 \RequirePackage{amsmath,amssymb,graphicx,float,hyperref}
 \RequirePackage{caption,subcaption} % Captions and subfigures
+\RequirePackage[backend=biber]{biblatex} % Use biblatex for bibliography management
 
 % Title and abstract formatting
 \renewcommand{\maketitle}{
@@ -67,12 +68,15 @@
   {1em}
   {}
 
-% Bibliography command
-\newcommand{\printbibliography}{
-  \twocolumn[ 
-  \bibliographystyle{apalike}
-  \bibliography{bibliography/mybibfile.bib}
-  ]
+
+% Bibliography command (avoids conflicts)
+\newcommand{\printbibliographysection}[1]{
+
+  \onecolumn  
+  \justifying
+  \printbibliography[title=#1] % Print bibliography with title
+  \twocolumn
 }
+
 
 \endinput
