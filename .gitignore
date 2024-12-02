@@ -8,6 +8,10 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+*.run.xml
+*.bcf
+*.bbl-SAVE-ERROR
+
 
 # Output PDF
 #*.pdf
